@@ -15,6 +15,7 @@ window.CLASSROOM_RWX = {
           media: {
             provider: "youtube",
             id: "kHVCAOIKhB4",
+            officialUrl: "https://www.crunchyroll.com/pt-br/watch/G6P8ZP8M6/what-is-evil-whatever-springs-from-weakness",
             start: 452,
             end: 570,
             title: "Como a escola funciona e os 100 mil pontos",
@@ -32,6 +33,7 @@ window.CLASSROOM_RWX = {
           media: {
             provider: "youtube",
             id: "kHVCAOIKhB4",
+            officialUrl: "https://www.crunchyroll.com/pt-br/watch/G6P8ZP8M6/what-is-evil-whatever-springs-from-weakness",
             start: 1186,
             end: 1365,
             title: "A Classe D descobre a regra de verdade",
