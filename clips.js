@@ -2,9 +2,10 @@ window.CLASSROOM_RWX = {
   parts: [
     {
       tab: "Prefácio · Ayanokoji",
-      heroPoster: "https://you-zitsu.com/1st/assets/news/vis-t1.jpg",
-      heroPosition: "58% 38%",
+      heroPoster: "https://you-zitsu.com/2nd/assets/news/vis-h1.jpg",
+      heroPosition: "50% 38%",
       heroTone: "cool",
+      heroLayout: "poster",
       kicker: "Prefácio",
       title: "ANTES DA CLASSE D, EXISTE AYANOKOJI",
       intro: "Classroom of the Elite pode falar de pontos, provas, classes, alianças e guerra psicológica. Mas tudo isso gira em torno de Kiyotaka Ayanokoji. Antes de entender a escola, vale entender por que ele chega ali tentando viver como um aluno comum, mesmo sendo tudo menos comum.",
@@ -74,6 +75,7 @@ window.CLASSROOM_RWX = {
       heroPoster: "https://you-zitsu.com/1st/assets/news/vis-t1.jpg",
       heroPosition: "54% 50%",
       heroTone: "school",
+      heroLayout: "poster",
       title: "A ESCOLA PERFEITA DEMAIS",
       intro: "Antes de falar do Ayanokoji, da Horikita ou de qualquer guerra psicológica, a gente precisa entender o lugar onde todo mundo foi colocado. Porque a escola é praticamente um personagem.",
       stories: [
@@ -117,6 +119,10 @@ window.CLASSROOM_RWX = {
     },
     {
       tab: "Parte 2 · Classe D",
+      heroPoster: "https://i.ytimg.com/vi/-I3kM2cZzCw/maxresdefault.jpg",
+      heroPosition: "50% 46%",
+      heroTone: "school",
+      heroLayout: "landscape",
       title: "A CLASSE D APRENDE A JOGAR",
       intro: "Depois que a escola mostra as regras, a história começa a mostrar quem está naquela turma e como pessoas completamente diferentes vão sendo obrigadas a funcionar juntas.",
       stories: [
@@ -168,6 +174,10 @@ window.CLASSROOM_RWX = {
     },
     {
       tab: "Parte 3 · Ilha",
+      heroPoster: "https://is1-ssl.mzstatic.com/image/thumb/C3h_mkrutxhXWRtgl9yLyg/1200x675.jpg",
+      heroPosition: "50% 50%",
+      heroTone: "school",
+      heroLayout: "landscape",
       title: "O TESTE DA ILHA MUDA A LEITURA DO PROTAGONISTA",
       intro: "Até aqui dá para enxergar Ayanokoji como um aluno esperto que ajuda a turma. O teste da ilha começa a destruir essa leitura.",
       stories: [
@@ -220,9 +230,10 @@ window.CLASSROOM_RWX = {
     },
     {
       tab: "Parte 4 · Relações",
-      heroPoster: "https://you-zitsu.com/2nd/assets/news/vis-h1.jpg",
-      heroPosition: "64% 42%",
+      heroPoster: "https://i.ytimg.com/vi/yaZ6Gqq_Em4/maxresdefault.jpg",
+      heroPosition: "50% 44%",
       heroTone: "warm",
+      heroLayout: "landscape",
       title: "NA SEGUNDA TEMPORADA, RELAÇÕES VIRAM RECURSO",
       intro: "A primeira temporada ensina o tabuleiro. A segunda começa a mostrar que confiança, reputação, medo e vulnerabilidade podem ser usados da mesma forma que pontos e regras.",
       stories: [
@@ -275,6 +286,10 @@ window.CLASSROOM_RWX = {
     },
     {
       tab: "Parte 5 · Paper Shuffle",
+      heroPoster: "https://i.ytimg.com/vi/yT0NuGinS00/maxresdefault.jpg",
+      heroPosition: "50% 50%",
+      heroTone: "cool",
+      heroLayout: "landscape",
       title: "KUSHIDA ACHA QUE ESTÁ CONTROLANDO O JOGO",
       intro: "Esse arco funciona porque primeiro deixa a Kushida acreditar que conhece as peças. Só depois mostra quantas camadas estavam acontecendo fora do campo de visão dela.",
       stories: [
@@ -312,6 +327,10 @@ window.CLASSROOM_RWX = {
     },
     {
       tab: "Parte 6 · Ryuen",
+      heroPoster: "https://i.ytimg.com/vi/pKXMUHlbalc/maxresdefault.jpg",
+      heroPosition: "50% 50%",
+      heroTone: "warm",
+      heroLayout: "landscape",
       title: "RYUEN COMEÇA A CAÇAR O FANTASMA DA CLASSE D",
       intro: "Depois de perder movimentos importantes sem entender de onde eles vieram, Ryuen chega à conclusão certa: existe alguém operando por trás da Classe D. Falta descobrir quem.",
       stories: [
