@@ -2,10 +2,10 @@ window.CLASSROOM_RWX = {
   parts: [
     {
       tab: "Prefácio",
-      heroPoster: "https://i.ytimg.com/vi/pkp7OyI_FkI/hqdefault.jpg",
-      heroPosition: "50% 50%",
+      heroPoster: "https://you-zitsu.com/2nd/assets/news/vis-h1.jpg",
+      heroPosition: "50% 38%",
       heroTone: "cool",
-      heroLayout: "landscape",
+      heroLayout: "poster",
       kicker: "Prefácio",
       title: "ANTES DA CLASSE D, EXISTE AYANOKOJI",
       intro: "Classroom of the Elite pode falar de pontos, provas, classes, alianças e guerra psicológica. Mas tudo isso gira em torno de Kiyotaka Ayanokoji. Antes de entender a escola, vale entender por que ele chega ali tentando viver como um aluno comum, mesmo sendo tudo menos comum.",
@@ -72,10 +72,10 @@ window.CLASSROOM_RWX = {
     },
     {
       tab: "1 · Escola",
-      heroPoster: "https://i.ytimg.com/vi/kHVCAOIKhB4/hqdefault.jpg",
-      heroPosition: "50% 50%",
+      heroPoster: "https://you-zitsu.com/1st/assets/news/vis-t1.jpg",
+      heroPosition: "54% 50%",
       heroTone: "school",
-      heroLayout: "landscape",
+      heroLayout: "poster",
       title: "A ESCOLA PERFEITA DEMAIS",
       intro: "Antes de falar do Ayanokoji, da Horikita ou de qualquer guerra psicológica, a gente precisa entender o lugar onde todo mundo foi colocado. Porque a escola é praticamente um personagem.",
       stories: [
@@ -119,8 +119,8 @@ window.CLASSROOM_RWX = {
     },
     {
       tab: "2 · Classe D",
-      heroPoster: "https://i.ytimg.com/vi/-I3kM2cZzCw/hqdefault.jpg",
-      heroPosition: "50% 48%",
+      heroPoster: "https://i.ytimg.com/vi/-I3kM2cZzCw/maxresdefault.jpg",
+      heroPosition: "50% 46%",
       heroTone: "school",
       heroLayout: "landscape",
       title: "A CLASSE D APRENDE A JOGAR",
@@ -174,8 +174,8 @@ window.CLASSROOM_RWX = {
     },
     {
       tab: "3 · Ilha",
-      heroPoster: "https://i.ytimg.com/vi/oK7dsXiQUH0/hqdefault.jpg",
-      heroPosition: "50% 52%",
+      heroPoster: "https://is1-ssl.mzstatic.com/image/thumb/C3h_mkrutxhXWRtgl9yLyg/1200x675.jpg",
+      heroPosition: "50% 50%",
       heroTone: "school",
       heroLayout: "landscape",
       title: "O TESTE DA ILHA MUDA A LEITURA DO PROTAGONISTA",
@@ -230,8 +230,8 @@ window.CLASSROOM_RWX = {
     },
     {
       tab: "4 · Relações",
-      heroPoster: "https://i.ytimg.com/vi/yaZ6Gqq_Em4/hqdefault.jpg",
-      heroPosition: "50% 50%",
+      heroPoster: "https://i.ytimg.com/vi/yaZ6Gqq_Em4/maxresdefault.jpg",
+      heroPosition: "50% 44%",
       heroTone: "warm",
       heroLayout: "landscape",
       title: "NA SEGUNDA TEMPORADA, RELAÇÕES VIRAM RECURSO",
@@ -286,7 +286,7 @@ window.CLASSROOM_RWX = {
     },
     {
       tab: "5 · Paper Shuffle",
-      heroPoster: "https://i.ytimg.com/vi/miOAdAwx9hY/hqdefault.jpg",
+      heroPoster: "https://i.ytimg.com/vi/yT0NuGinS00/maxresdefault.jpg",
       heroPosition: "50% 50%",
       heroTone: "cool",
       heroLayout: "landscape",
@@ -327,7 +327,7 @@ window.CLASSROOM_RWX = {
     },
     {
       tab: "6 · Ryuen",
-      heroPoster: "https://i.ytimg.com/vi/pKXMUHlbalc/hqdefault.jpg",
+      heroPoster: "https://i.ytimg.com/vi/pKXMUHlbalc/maxresdefault.jpg",
       heroPosition: "50% 50%",
       heroTone: "warm",
       heroLayout: "landscape",
