@@ -2,6 +2,9 @@ window.CLASSROOM_RWX = {
   parts: [
     {
       tab: "Prefácio · Ayanokoji",
+      heroPoster: "https://you-zitsu.com/2nd/assets/news/vis-t1.jpg",
+      heroPosition: "58% 38%",
+      heroTone: "cool",
       kicker: "Prefácio",
       title: "ANTES DA CLASSE D, EXISTE AYANOKOJI",
       intro: "Classroom of the Elite pode falar de pontos, provas, classes, alianças e guerra psicológica. Mas tudo isso gira em torno de Kiyotaka Ayanokoji. Antes de entender a escola, vale entender por que ele chega ali tentando viver como um aluno comum, mesmo sendo tudo menos comum.",
@@ -68,6 +71,9 @@ window.CLASSROOM_RWX = {
     },
     {
       tab: "Parte 1 · A escola",
+      heroPoster: "https://you-zitsu.com/1st/assets/news/vis-t1.jpg",
+      heroPosition: "54% 50%",
+      heroTone: "school",
       title: "A ESCOLA PERFEITA DEMAIS",
       intro: "Antes de falar do Ayanokoji, da Horikita ou de qualquer guerra psicológica, a gente precisa entender o lugar onde todo mundo foi colocado. Porque a escola é praticamente um personagem.",
       stories: [
@@ -214,6 +220,9 @@ window.CLASSROOM_RWX = {
     },
     {
       tab: "Parte 4 · Relações",
+      heroPoster: "https://you-zitsu.com/2nd/assets/news/vis-h1.jpg",
+      heroPosition: "64% 42%",
+      heroTone: "warm",
       title: "NA SEGUNDA TEMPORADA, RELAÇÕES VIRAM RECURSO",
       intro: "A primeira temporada ensina o tabuleiro. A segunda começa a mostrar que confiança, reputação, medo e vulnerabilidade podem ser usados da mesma forma que pontos e regras.",
       stories: [
