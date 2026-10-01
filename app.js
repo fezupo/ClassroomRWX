@@ -106,12 +106,20 @@
 
     renderTabs();
 
-    if(heroPoster && part.heroPoster){
-      heroPoster.src = part.heroPoster;
+    if(heroPoster){
+      const nextPoster = part.heroPoster || "https://you-zitsu.com/1st/assets/news/vis-t1.jpg";
+      heroPoster.onerror = () => {
+        heroPoster.onerror = null;
+        heroPoster.src = "https://you-zitsu.com/1st/assets/news/vis-t1.jpg";
+      };
+      heroPoster.style.opacity = "0";
+      heroPoster.onload = () => { heroPoster.style.opacity = "0.96"; };
+      heroPoster.src = nextPoster;
       heroPoster.style.objectPosition = part.heroPosition || "50% 50%";
     }
     if(hero){
       hero.dataset.tone = part.heroTone || "default";
+      hero.dataset.layout = part.heroLayout || "poster";
     }
 
     view.innerHTML = `
