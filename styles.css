@@ -90,6 +90,18 @@ button{font:inherit}
 .hero[data-tone="cool"] .hero-art img{
   filter:saturate(.90) contrast(1.08) brightness(.91);
 }
+.hero[data-layout="landscape"] .hero-art{
+  width:430px;
+  height:270px;
+  top:58px;
+  border-radius:22px;
+  transform:rotate(.5deg);
+}
+.hero[data-layout="landscape"] .hero-art img{
+  object-fit:cover;
+  transform:scale(1.01);
+}
+
 .hero:after{
   content:"";
   position:absolute;
@@ -313,6 +325,7 @@ button{font:inherit}
 @media(max-width:760px){
   .hero{min-height:330px}
   .hero-art{right:14px;top:22px;width:210px;height:285px;opacity:.54;transform:none}
+  .hero[data-layout="landscape"] .hero-art{right:14px;top:38px;width:250px;height:160px;opacity:.48;transform:none}
   .hero:after{background:linear-gradient(90deg,rgba(7,9,13,.97) 0%,rgba(7,9,13,.91) 62%,rgba(7,9,13,.52) 100%)}
   .site-shell,.hero-inner{width:min(100% - 28px,1180px)}
   .site-shell{padding-top:24px}
