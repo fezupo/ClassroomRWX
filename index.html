@@ -3,10 +3,22 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <meta name="theme-color" content="#080a0f" />
   <title>Classroom of the Elite | Boteco RWX</title>
   <meta name="description" content="Web presentation do Boteco RWX para a live de Classroom of the Elite." />
-  <link rel="stylesheet" href="styles.css?v=20261001-island-art" />
+  <script>
+    (() => {
+      const fresh = Date.now();
+      const css = document.createElement("link");
+      css.rel = "stylesheet";
+      css.href = "styles.css?fresh=" + fresh;
+      document.head.appendChild(css);
+      window.__RWX_FRESH__ = fresh;
+    })();
+  </script>
 </head>
 <body>
   <header class="hero">
@@ -43,8 +55,30 @@
     <span>Boteco RWX</span>
     <span>game · anime · música · confusão</span>
   </footer>
+  <script>
+    (() => {
+      const fresh = window.__RWX_FRESH__ || Date.now();
 
-  <script src="clips.js?v=20261001-island-art"></script>
-  <script src="app.js?v=20261001-island-art"></script>
+      function loadScript(src) {
+        return new Promise((resolve, reject) => {
+          const s = document.createElement("script");
+          s.src = src + "?fresh=" + fresh;
+          s.onload = resolve;
+          s.onerror = reject;
+          document.body.appendChild(s);
+        });
+      }
+
+      loadScript("clips.js")
+        .then(() => loadScript("app.js"))
+        .catch(err => {
+          console.error("RWX loader error:", err);
+          const msg = document.createElement("div");
+          msg.style.cssText = "padding:18px;color:#fff;background:#7a1426;font:700 14px system-ui";
+          msg.textContent = "Falha ao carregar os arquivos atualizados. Recarregue a página.";
+          document.body.prepend(msg);
+        });
+    })();
+  </script>
 </body>
 </html>
