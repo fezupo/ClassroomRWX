@@ -2,8 +2,8 @@ window.CLASSROOM_RWX = {
   parts: [
     {
       tab: "Prefácio · Ayanokoji",
-      heroPoster: "https://i.ytimg.com/vi/hcQbIDDGmQw/hqdefault.jpg",
-      heroPosition: "50% 43%",
+      heroPoster: "https://i.ytimg.com/vi/pkp7OyI_FkI/hqdefault.jpg",
+      heroPosition: "50% 50%",
       heroTone: "cool",
       heroLayout: "landscape",
       kicker: "Prefácio",
