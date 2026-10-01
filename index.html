@@ -9,21 +9,50 @@
   <meta name="theme-color" content="#080a0f" />
   <title>Classroom of the Elite | Boteco RWX</title>
   <meta name="description" content="Web presentation do Boteco RWX para a live de Classroom of the Elite." />
+  <style>
+    /* Critical live-safe navigation: never show a horizontal scrollbar. */
+    #partTabs{
+      display:grid !important;
+      grid-template-columns:repeat(7,minmax(0,1fr)) !important;
+      gap:8px !important;
+      width:100% !important;
+      max-width:100% !important;
+      overflow:hidden !important;
+      padding:0 0 20px !important;
+      scrollbar-width:none !important;
+    }
+    #partTabs::-webkit-scrollbar{display:none !important}
+    #partTabs .part-tab{
+      min-width:0 !important;
+      width:100% !important;
+      max-width:100% !important;
+      white-space:nowrap !important;
+      overflow:hidden !important;
+      text-overflow:clip !important;
+      padding:11px 5px !important;
+      font-size:13px !important;
+      text-align:center !important;
+    }
+    @media(max-width:980px){
+      #partTabs{grid-template-columns:repeat(4,minmax(0,1fr)) !important}
+    }
+    @media(max-width:760px){
+      #partTabs{grid-template-columns:repeat(2,minmax(0,1fr)) !important}
+    }
+  </style>
   <script>
-    (() => {
-      const fresh = Date.now();
-      const css = document.createElement("link");
-      css.rel = "stylesheet";
-      css.href = "styles.css?fresh=" + fresh;
-      document.head.appendChild(css);
-      window.__RWX_FRESH__ = fresh;
-    })();
+    /*
+      raw.githack caches branch assets aggressively.
+      This page therefore fetches the current MAIN files straight from raw.githubusercontent.com
+      on every reload, using no-store + a timestamp.
+    */
+    window.__RWX_FRESH__ = Date.now();
   </script>
 </head>
 <body>
   <header class="hero">
     <div class="hero-art" aria-hidden="true">
-      <img id="heroPoster" src="https://i.ytimg.com/vi/hcQbIDDGmQw/hqdefault.jpg?rwxpart=0" alt="" referrerpolicy="no-referrer" />
+      <img id="heroPoster" src="https://i.ytimg.com/vi/pkp7OyI_FkI/hqdefault.jpg" alt="" referrerpolicy="no-referrer" />
       <div class="hero-art-shade"></div>
     </div>
     <div class="hero-noise"></div>
@@ -56,28 +85,44 @@
     <span>game · anime · música · confusão</span>
   </footer>
   <script>
-    (() => {
+    (async () => {
       const fresh = window.__RWX_FRESH__ || Date.now();
+      const base = "https://raw.githubusercontent.com/fezupo/ClassroomRWX/main/";
 
-      function loadScript(src) {
-        return new Promise((resolve, reject) => {
-          const s = document.createElement("script");
-          s.src = src + "?fresh=" + fresh;
-          s.onload = resolve;
-          s.onerror = reject;
-          document.body.appendChild(s);
+      async function get(name){
+        const response = await fetch(base + name + "?fresh=" + fresh, {
+          cache: "no-store",
+          mode: "cors"
         });
+        if(!response.ok) throw new Error(name + " HTTP " + response.status);
+        return response.text();
       }
 
-      loadScript("clips.js")
-        .then(() => loadScript("app.js"))
-        .catch(err => {
-          console.error("RWX loader error:", err);
-          const msg = document.createElement("div");
-          msg.style.cssText = "padding:18px;color:#fff;background:#7a1426;font:700 14px system-ui";
-          msg.textContent = "Falha ao carregar os arquivos atualizados. Recarregue a página.";
-          document.body.prepend(msg);
-        });
+      try {
+        const cssText = await get("styles.css");
+        const style = document.createElement("style");
+        style.setAttribute("data-rwx-main", "styles.css");
+        style.textContent = cssText;
+        document.head.appendChild(style);
+
+        const clipsText = await get("clips.js");
+        const clipsScript = document.createElement("script");
+        clipsScript.setAttribute("data-rwx-main", "clips.js");
+        clipsScript.textContent = clipsText;
+        document.body.appendChild(clipsScript);
+
+        const appText = await get("app.js");
+        const appScript = document.createElement("script");
+        appScript.setAttribute("data-rwx-main", "app.js");
+        appScript.textContent = appText;
+        document.body.appendChild(appScript);
+      } catch(err) {
+        console.error("RWX MAIN loader error:", err);
+        const msg = document.createElement("div");
+        msg.style.cssText = "padding:18px;color:#fff;background:#7a1426;font:700 14px system-ui";
+        msg.textContent = "Falha ao ler o MAIN atualizado. Recarregue a página.";
+        document.body.prepend(msg);
+      }
     })();
   </script>
 </body>
