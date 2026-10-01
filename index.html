@@ -3,55 +3,42 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#080a0f" />
   <title>Classroom of the Elite | Boteco RWX</title>
-  <meta name="description" content="Web presentation do Boteco RWX para a live de Classroom of the Elite, temporadas 1 e 2." />
-  <link rel="preconnect" href="https://www.youtube-nocookie.com" />
+  <meta name="description" content="Web presentation do Boteco RWX para a live de Classroom of the Elite." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="app-shell">
-    <header class="topbar">
-      <div class="brand">
-        <span class="brand-mark">RWX</span>
-        <div>
-          <strong>BOTECO RWX</strong>
-          <small>Classroom of the Elite · T1 + T2</small>
-        </div>
+  <header class="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-inner">
+      <div class="brandline">
+        <span class="rwx-badge">RWX</span>
+        <span>BOTECO RWX APRESENTA</span>
       </div>
-
-      <div class="topbar-actions">
-        <button id="notesToggle" class="icon-btn" type="button" title="Notas da bancada (N)">N</button>
-        <button id="fullscreenBtn" class="icon-btn" type="button" title="Tela cheia (F)">⛶</button>
-      </div>
-    </header>
-
-    <main class="presentation-shell">
-      <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
-
-      <section id="slide" class="slide" aria-live="polite"></section>
-
-      <nav class="controls" aria-label="Navegação da apresentação">
-        <button id="prevBtn" type="button">← Anterior</button>
-        <div class="counter">
-          <span id="slideNumber">1</span>
-          <span class="counter-sep">/</span>
-          <span id="slideTotal">1</span>
-        </div>
-        <button id="nextBtn" type="button">Próximo →</button>
-      </nav>
-    </main>
-  </div>
-
-  <dialog id="videoDialog" class="video-dialog">
-    <div class="video-dialog-head">
-      <div>
-        <small id="videoKicker"></small>
-        <strong id="videoTitle"></strong>
-      </div>
-      <button id="closeVideo" class="icon-btn" type="button" aria-label="Fechar">✕</button>
+      <p class="hero-kicker">Temporadas 1 + 2</p>
+      <h1>CLASSROOM<br><span>OF THE ELITE</span></h1>
+      <p class="hero-lead">
+        Uma escola que vende liberdade, transforma mérito em moeda e faz das relações humanas parte do jogo.
+      </p>
     </div>
-    <div id="videoFrameHost" class="video-frame-host"></div>
-  </dialog>
+  </header>
+
+  <main class="site-shell">
+    <nav id="partTabs" class="part-tabs" aria-label="Partes da apresentação"></nav>
+    <section id="partView" class="part-view" aria-live="polite"></section>
+
+    <div class="part-nav">
+      <button id="prevPart" type="button">← Parte anterior</button>
+      <span id="partCounter"></span>
+      <button id="nextPart" type="button">Próxima parte →</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span>Boteco RWX</span>
+    <span>game · anime · música · confusão</span>
+  </footer>
 
   <script src="clips.js"></script>
   <script src="app.js"></script>
