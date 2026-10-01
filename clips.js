@@ -15,11 +15,11 @@ window.CLASSROOM_RWX = {
           media: {
             provider: "youtube",
             id: "kHVCAOIKhB4",
-            start: 505,
-            end: 515,
-            title: "Os 100 mil pontos",
-            tag: "Trecho separado",
-            caption: "Primeiro momento do episódio 1: a escola apresenta o sistema de pontos como benefício."
+            start: 452,
+            end: 534,
+            title: "Como a escola funciona e os 100 mil pontos",
+            tag: "Trecho completo · 07:32–08:54",
+            caption: "Trecho completo da explicação inicial: Chabashira apresenta as regras da escola, as restrições do campus, as instalações, o sistema de pontos, os 100 mil pontos mensais e a ideia de mérito."
           }
         },
         {
@@ -32,11 +32,11 @@ window.CLASSROOM_RWX = {
           media: {
             provider: "youtube",
             id: "kHVCAOIKhB4",
-            start: 1268,
-            end: 1285,
-            title: "A Classe D perde os pontos",
-            tag: "Trecho separado",
-            caption: "Segundo embed do mesmo episódio. Já abre direto na revelação, sem precisar procurar nada durante a live."
+            start: 1186,
+            end: 1332,
+            title: "A Classe D descobre a regra de verdade",
+            tag: "Trecho completo · 19:46–22:12",
+            caption: "O trecho começa ainda na consequência do primeiro mês, passa pela chegada de 1º de maio e mantém toda a explicação de Chabashira até a conclusão sobre mérito e o valor atribuído à Classe D."
           }
         }
       ]
