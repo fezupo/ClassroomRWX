@@ -5,6 +5,8 @@
   const prev = document.getElementById("prevPart");
   const next = document.getElementById("nextPart");
   const counter = document.getElementById("partCounter");
+  const hero = document.querySelector(".hero");
+  const heroPoster = document.getElementById("heroPoster");
   let active = 0;
 
   const esc = (v="") => String(v)
@@ -103,6 +105,14 @@
     const part = data.parts[active];
 
     renderTabs();
+
+    if(heroPoster && part.heroPoster){
+      heroPoster.src = part.heroPoster;
+      heroPoster.style.objectPosition = part.heroPosition || "50% 50%";
+    }
+    if(hero){
+      hero.dataset.tone = part.heroTone || "default";
+    }
 
     view.innerHTML = `
       <header class="part-head">
