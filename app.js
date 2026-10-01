@@ -49,8 +49,8 @@
     } else {
       body = `<div class="pending-media">
         <div>
-          <strong>Trecho PT-BR em preparação</strong>
-          <p>O espaço já está reservado na ordem correta. Aqui entra somente o recorte necessário, sem precisar procurar o momento durante a transmissão.</p>
+          <strong>Trecho local em preparação</strong>
+          <p>O espaço já está reservado na ordem correta. O arquivo final entra aqui com áudio original japonês e legenda PT-BR, já cortado no começo e fim naturais da cena.</p>
         </div>
       </div>`;
     }
@@ -106,7 +106,7 @@
 
     view.innerHTML = `
       <header class="part-head">
-        <span class="part-number">Parte ${String(active + 1).padStart(2,"0")}</span>
+        <span class="part-number">${esc(part.kicker || (active === 0 ? "Prefácio" : `Parte ${String(active).padStart(2,"0")}`))}</span>
         <h2>${esc(part.title)}</h2>
         <p>${esc(part.intro)}</p>
       </header>
