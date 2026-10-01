@@ -2,7 +2,7 @@ window.CLASSROOM_RWX = {
   parts: [
     {
       tab: "Prefácio · Ayanokoji",
-      heroPoster: "https://you-zitsu.com/2nd/assets/news/vis-t1.jpg",
+      heroPoster: "https://you-zitsu.com/1st/assets/news/vis-t1.jpg",
       heroPosition: "58% 38%",
       heroTone: "cool",
       kicker: "Prefácio",
