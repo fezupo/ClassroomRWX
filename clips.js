@@ -1,384 +1,304 @@
 window.CLASSROOM_RWX = {
-  title: "Classroom of the Elite · T1 + T2",
-  updatedAt: "2026-10-01",
-  clips: [
+  parts: [
     {
-      id: "t1e1-pontos",
-      season: 1,
-      episode: "T1E1",
-      arc: "A escola parece um paraíso",
-      title: "100 mil pontos por mês",
-      function: "Apresentar a promessa da escola",
-      summary: "A escola vende liberdade, dinheiro e privilégios. É a primeira peça para Will e KV entenderem por que os alunos acreditam que entraram num paraíso.",
-      sourceType: "youtube",
-      youtubeId: "kHVCAOIKhB4",
-      url: "https://www.youtube.com/watch?v=kHVCAOIKhB4",
-      sourceLabel: "Crunchyroll Brasil · episódio 1 dublado",
-      start: 505,
-      end: 515,
-      range: "08:25–08:35 (sugerido)",
-      language: "PT-BR",
-      status: "source",
-      statusLabel: "recortar do episódio",
-      pace: "3–5 min de mesa",
-      question: "Se uma escola te dá 100 mil pontos todo mês e liberdade quase total, qual é a pegadinha?",
-      hostCue: "Não explicar a punição ainda. Deixa Will/KV comprarem a promessa primeiro.",
-      exitCue: "Emendar imediatamente no segundo trecho do mesmo episódio."
+      tab: "Parte 1 · A escola",
+      title: "A ESCOLA PERFEITA DEMAIS",
+      intro: "Antes de falar do Ayanokoji, da Horikita ou de qualquer guerra psicológica, a gente precisa entender o lugar onde todo mundo foi colocado. Porque a escola é praticamente um personagem.",
+      stories: [
+        {
+          eyebrow: "T1 · Episódio 1",
+          title: "Primeiro vem a promessa",
+          paragraphs: [
+            "A Escola Metropolitana de Ensino Avançado se apresenta como o sonho de qualquer adolescente. Os alunos moram no campus, têm liberdade, acesso a lojas e recebem uma quantidade absurda de pontos que funcionam como dinheiro.",
+            "No começo, a sensação é simples: <strong>essa escola confia nos alunos e recompensa quem conseguiu entrar ali.</strong> A Classe D compra essa ideia rapidinho."
+          ],
+          media: {
+            provider: "youtube",
+            id: "kHVCAOIKhB4",
+            start: 505,
+            end: 515,
+            title: "Os 100 mil pontos",
+            tag: "Trecho separado",
+            caption: "Primeiro momento do episódio 1: a escola apresenta o sistema de pontos como benefício."
+          }
+        },
+        {
+          eyebrow: "T1 · Episódio 1",
+          title: "Aí vem a conta",
+          paragraphs: [
+            "Só que a escola nunca disse que aqueles pontos eram garantidos. Quando o mês vira, a Classe D descobre que comportamento, notas, atrasos e disciplina estavam sendo avaliados o tempo inteiro.",
+            "O detalhe mais importante é esse: <strong>não existe liberdade sem consequência dentro daquele sistema.</strong> A turma gastou como se estivesse recebendo mesada e descobre que, na prática, estava sendo observada."
+          ],
+          media: {
+            provider: "youtube",
+            id: "kHVCAOIKhB4",
+            start: 1268,
+            end: 1285,
+            title: "A Classe D perde os pontos",
+            tag: "Trecho separado",
+            caption: "Segundo embed do mesmo episódio. Já abre direto na revelação, sem precisar procurar nada durante a live."
+          }
+        }
+      ]
     },
     {
-      id: "t1e1-pegadinha",
-      season: 1,
-      episode: "T1E1",
-      arc: "O sistema mostra os dentes",
-      title: "A turma perde os pontos",
-      function: "Revelar que comportamento e desempenho têm preço",
-      summary: "A falsa liberdade desaba. A escola mede a turma e transforma comportamento, notas e disciplina em capital real.",
-      sourceType: "youtube",
-      youtubeId: "kHVCAOIKhB4",
-      url: "https://www.youtube.com/watch?v=kHVCAOIKhB4",
-      sourceLabel: "Crunchyroll Brasil · episódio 1 dublado",
-      start: 1268,
-      end: 1285,
-      range: "21:08–21:25 (sugerido)",
-      language: "PT-BR",
-      status: "source",
-      statusLabel: "recortar do episódio",
-      pace: "4–6 min de mesa",
-      question: "Isso é meritocracia, experimento social ou manipulação institucional?",
-      hostCue: "Aqui nasce a conversa sobre o sistema, sem entrar ainda no Ayanokoji.",
-      exitCue: "Virar para a dinâmica Ayanokoji/Horikita."
+      tab: "Parte 2 · Classe D",
+      title: "A CLASSE D APRENDE A JOGAR",
+      intro: "Depois que a escola mostra as regras, a história começa a mostrar quem está naquela turma e como pessoas completamente diferentes vão sendo obrigadas a funcionar juntas.",
+      stories: [
+        {
+          eyebrow: "T1 · Episódio 2",
+          title: "Ayanokoji e Horikita começam a formar uma dupla estranha",
+          paragraphs: [
+            "Horikita é inteligente, mas tem zero interesse em criar laços. Ela quer subir para a Classe A e acredita que consegue fazer isso praticamente sozinha.",
+            "Ayanokoji parece exatamente o contrário: apagado, sem ambição aparente e sempre evitando o centro. Só que aos poucos ele começa a interferir nos problemas dela e da turma sem chamar atenção para si."
+          ],
+          media: {
+            provider: "youtube",
+            id: "-I3kM2cZzCw",
+            title: "Ayanokoji defende Horikita",
+            tag: "Crunchyroll Brasil",
+            caption: "Um dos primeiros momentos em que a relação entre os dois deixa de ser apenas convivência de sala."
+          }
+        },
+        {
+          eyebrow: "T1 · Episódio 3",
+          title: "Kushida: a pessoa que todo mundo conhece não é a pessoa inteira",
+          paragraphs: [
+            "Kushida é praticamente o oposto da Horikita. Ela é popular, simpática, conversa com todo mundo e quer parecer amiga de todo mundo.",
+            "O problema é que Ayanokoji encontra justamente o lado que ela tenta esconder. A partir daqui, o anime deixa claro que <strong>imagem social e identidade real podem ser coisas completamente diferentes.</strong>"
+          ],
+          media: {
+            provider: "dailymotion",
+            id: "x8dycyw",
+            title: "A verdadeira face da Kushida",
+            tag: "Fonte temporária",
+            caption: "Referência pública da cena. A versão PT-BR definitiva ainda será substituída antes da live."
+          }
+        },
+        {
+          eyebrow: "T1 · Episódios 4 a 6",
+          title: "O caso Sudo ensina que a regra também pode virar arma",
+          paragraphs: [
+            "Quando Sudo é acusado pelos alunos da Classe C, a questão deixa de ser apenas descobrir quem começou a briga. A Classe D corre risco de perder pontos e precisa aprender a trabalhar com testemunho, evidência e pressão.",
+            "É um passo importante porque eles começam a perceber que vencer naquela escola não depende somente de estar certo. Depende de <strong>entender como o sistema toma decisões e como obrigar o adversário a recalcular o próprio risco.</strong>"
+          ],
+          media: {
+            provider: "pending",
+            title: "Sudo x Classe C",
+            tag: "Recorte PT-BR pendente",
+            caption: "Vamos substituir este slot pelo recorte exato da solução do caso, já pronto para tocar sem busca de timestamp."
+          }
+        }
+      ]
     },
     {
-      id: "t1e2-horikita",
-      season: 1,
-      episode: "T1E2",
-      arc: "Os primeiros laços",
-      title: "Ayanokoji defende Horikita",
-      function: "Mostrar a primeira engrenagem entre os dois",
-      summary: "Ayanokoji começa a intervir e a ligação com Horikita deixa de ser apenas convivência casual. A Turma D precisa aprender a agir coletivamente.",
-      sourceType: "youtube",
-      youtubeId: "-I3kM2cZzCw",
-      url: "https://www.youtube.com/watch?v=-I3kM2cZzCw",
-      sourceLabel: "Crunchyroll Brasil · clipe oficial",
-      range: "clipe oficial",
-      language: "PT-BR",
-      status: "ready",
-      statusLabel: "clipe pronto",
-      pace: "4–6 min de mesa",
-      question: "Ele está ajudando a Horikita ou já está posicionando uma peça?",
-      hostCue: "Boa hora para apresentar rapidamente as diferenças de personalidade entre os dois.",
-      exitCue: "Entrar na Kushida como contraponto social."
+      tab: "Parte 3 · Ilha",
+      title: "O TESTE DA ILHA MUDA A LEITURA DO PROTAGONISTA",
+      intro: "Até aqui dá para enxergar Ayanokoji como um aluno esperto que ajuda a turma. O teste da ilha começa a destruir essa leitura.",
+      stories: [
+        {
+          eyebrow: "T1 · Episódio 12",
+          title: "A vitória acontece numa camada que quase ninguém viu",
+          paragraphs: [
+            "No fim do teste, as outras classes percebem tarde demais que a Classe D estava jogando com informação, líderes e substituições de uma forma muito mais calculada do que parecia.",
+            "O mais importante não é apenas a vitória. É perceber que <strong>alguém estava organizando as peças sem precisar aparecer como líder.</strong>"
+          ],
+          media: {
+            provider: "youtube",
+            id: "oK7dsXiQUH0",
+            title: "O resultado do teste da ilha",
+            tag: "Cena isolada",
+            caption: "Payoff do arco da ilha. A versão PT-BR deste mesmo momento ainda será validada."
+          }
+        },
+        {
+          eyebrow: "T1 · Episódio 12",
+          title: "Horikita fica com o crédito",
+          paragraphs: [
+            "Para a turma, a grande responsável pelo resultado é Horikita. E Ayanokoji não demonstra nenhum problema com isso.",
+            "Essa é uma característica que vai importar muito depois: ele não precisa que os outros saibam que foi ele. Muitas vezes, <strong>ser invisível é exatamente a posição que ele prefere.</strong>"
+          ],
+          media: {
+            provider: "youtube",
+            id: "oK7dsXiQUH0",
+            title: "A fachada pública da vitória",
+            tag: "Mesmo arco",
+            caption: "Mantido em um bloco próprio porque, na live, esta ideia será explicada separadamente da mecânica da vitória."
+          }
+        },
+        {
+          eyebrow: "T1 · Episódio 12",
+          title: "E aí o anime mostra quem ele realmente é",
+          paragraphs: [
+            "A temporada termina desmontando a impressão de que Ayanokoji estava simplesmente criando amizade e ajudando os colegas por bondade.",
+            "Quando Horikita começa a enxergá-lo como aliado, o público recebe a informação que muda todo o resto: <strong>ele está disposto a tratar pessoas como ferramentas se isso for necessário para vencer.</strong>"
+          ],
+          media: {
+            provider: "youtube",
+            id: "hcQbIDDGmQw",
+            title: "O monólogo final de Ayanokoji",
+            tag: "Fechamento da T1",
+            caption: "Cena que fecha a primeira temporada e muda a interpretação do protagonista."
+          }
+        }
+      ]
     },
     {
-      id: "t1e3-kushida",
-      season: 1,
-      episode: "T1E3",
-      arc: "Máscaras",
-      title: "A verdadeira Kushida",
-      function: "Quebrar a imagem social perfeita",
-      summary: "Ayanokoji vê o lado que Kushida esconde e ela tenta imediatamente criar uma forma de controle sobre ele. É o primeiro grande aviso de que relações aqui também são armas.",
-      sourceType: "external",
-      url: "https://www.crunchyroll.com/watch/G6KE3PE76",
-      sourceLabel: "Crunchyroll · episódio 3",
-      range: "20:15–21:35 (sugerido)",
-      language: "PT-BR disponível",
-      status: "verify",
-      statusLabel: "conferir faixa",
-      pace: "5–7 min de mesa",
-      question: "Quem fica mais perigoso aqui: quem tem duas faces ou quem percebe isso e continua calmo?",
-      hostCue: "Segurar o spoiler do Paper Shuffle. A graça é plantar a Kushida agora.",
-      exitCue: "Mostrar que o sistema também pode ser usado para resolver conflitos da turma."
+      tab: "Parte 4 · Relações",
+      title: "NA SEGUNDA TEMPORADA, RELAÇÕES VIRAM RECURSO",
+      intro: "A primeira temporada ensina o tabuleiro. A segunda começa a mostrar que confiança, reputação, medo e vulnerabilidade podem ser usados da mesma forma que pontos e regras.",
+      stories: [
+        {
+          eyebrow: "T2 · Episódio 1",
+          title: "Karuizawa deixa de ser só mais uma aluna",
+          paragraphs: [
+            "Kei Karuizawa começa a ganhar um peso muito maior. A nova prova mistura alunos de classes diferentes e força todo mundo a pensar não apenas em notas, mas em influência social.",
+            "É quando a temporada começa a transformar relações pessoais em parte explícita da estratégia."
+          ],
+          media: {
+            provider: "youtube",
+            id: "yaZ6Gqq_Em4",
+            title: "Karuizawa precisa de ajuda",
+            tag: "Crunchyroll Brasil",
+            caption: "Cena oficial em PT-BR para introduzir a mudança de foco da segunda temporada."
+          }
+        },
+        {
+          eyebrow: "T2 · Episódio 6",
+          title: "A guerra entre Kushida e Horikita deixa de ser subterrânea",
+          paragraphs: [
+            "Na primeira temporada, Ayanokoji descobre a personalidade escondida da Kushida. Agora a própria Horikita passa a lidar diretamente com esse lado dela.",
+            "O conflito deixa de ser apenas antipatia. A Kushida começa a tratar a existência da Horikita como ameaça à imagem que construiu."
+          ],
+          media: {
+            provider: "youtube",
+            id: "yT0NuGinS00",
+            title: "Kushida mostra sua verdadeira face para Horikita",
+            tag: "PT-BR",
+            caption: "A ponte direta entre o segredo plantado na T1 e o conflito aberto da T2."
+          }
+        },
+        {
+          eyebrow: "T2 · Episódio 8",
+          title: "Paper Shuffle: o conflito ganha uma aposta real",
+          paragraphs: [
+            "Horikita e Kushida colocam o confronto dentro de uma prova. Agora existe consequência concreta para quem perder.",
+            "O interessante é que a Kushida acredita estar criando uma situação em que finalmente tem controle. E é justamente aí que o jogo começa a ficar perigoso para ela."
+          ],
+          media: {
+            provider: "youtube",
+            id: "miOAdAwx9hY",
+            title: "A aposta do Paper Shuffle",
+            tag: "Fonte de referência",
+            caption: "Este recorte serve como referência até fecharmos a versão PT-BR definitiva."
+          }
+        }
+      ]
     },
     {
-      id: "t1e6-sudo",
-      season: 1,
-      episode: "T1E6",
-      arc: "Aprender a jogar",
-      title: "Sudo x Classe C",
-      function: "Mostrar a Classe D usando as regras como ferramenta",
-      summary: "O conflito deixa de ser apenas 'quem está certo'. Horikita e Ayanokoji começam a usar risco, evidência e incentivos do próprio sistema contra o adversário.",
-      sourceType: "external",
-      url: "https://www.crunchyroll.com/watch/G6J0EXXDR",
-      sourceLabel: "Crunchyroll · episódio 6",
-      range: "06:33 em diante (sugerido)",
-      language: "PT-BR disponível",
-      status: "verify",
-      statusLabel: "conferir faixa",
-      pace: "5–7 min de mesa",
-      question: "O objetivo aqui é provar inocência ou criar um custo alto demais para a mentira?",
-      hostCue: "Puxar Will/KV para a lógica do jogo antes de explicar a solução.",
-      exitCue: "Pular no tempo para o teste da ilha e aumentar a escala."
+      tab: "Parte 5 · Paper Shuffle",
+      title: "KUSHIDA ACHA QUE ESTÁ CONTROLANDO O JOGO",
+      intro: "Esse arco funciona porque primeiro deixa a Kushida acreditar que conhece as peças. Só depois mostra quantas camadas estavam acontecendo fora do campo de visão dela.",
+      stories: [
+        {
+          eyebrow: "T2 · Episódio 9",
+          title: "Primeiro, a sensação de vitória",
+          paragraphs: [
+            "Kushida entra na prova acreditando que preparou o cenário que precisava. Ela confia na informação que conseguiu e na cooperação que montou por fora.",
+            "Por alguns minutos, parece que finalmente chegou o momento em que Horikita e Ayanokoji foram colocados contra a parede."
+          ],
+          media: {
+            provider: "youtube",
+            id: "tmuvPWJ6Hco",
+            title: "Kushida acha que venceu",
+            tag: "Parte 1",
+            caption: "Primeira metade do payoff. Mantida separada para não entregar a virada antes da explicação."
+          }
+        },
+        {
+          eyebrow: "T2 · Episódio 9",
+          title: "Depois, a armadilha fecha do outro lado",
+          paragraphs: [
+            "O problema da Kushida é que ela calcula o que os outros sabem com base no que ela própria conseguiu enxergar.",
+            "Quando as contramedidas aparecem, fica claro que o jogo já tinha sido antecipado. A mesma personagem que tentou criar uma armadilha percebe que <strong>também estava sendo conduzida.</strong>"
+          ],
+          media: {
+            provider: "youtube",
+            id: "esaDifOFzf4",
+            title: "A armadilha fecha",
+            tag: "Parte 2",
+            caption: "A continuação entra somente depois da explicação, preservando a progressão durante a live."
+          }
+        }
+      ]
     },
     {
-      id: "t1e12-ilha",
-      season: 1,
-      episode: "T1E12",
-      arc: "O teste da ilha",
-      title: "A jogada escondida",
-      function: "Mostrar que existe alguém jogando por baixo",
-      summary: "No payoff do teste, fica evidente que a Classe D não venceu por acaso. O jogo real estava acontecendo numa camada que os outros líderes não acompanharam.",
-      sourceType: "external",
-      url: "https://www.crunchyroll.com/watch/G14U4N52V",
-      sourceLabel: "Crunchyroll · episódio 12",
-      range: "14:50–15:25 (sugerido)",
-      language: "PT-BR disponível",
-      status: "verify",
-      statusLabel: "conferir faixa",
-      pace: "4–6 min de mesa",
-      question: "Em que momento vocês perceberiam que tinha alguém invisível controlando esse resultado?",
-      hostCue: "Não entregar o monólogo final ainda.",
-      exitCue: "Mostrar o crédito indo para Horikita."
-    },
-    {
-      id: "t1e12-credito",
-      season: 1,
-      episode: "T1E12",
-      arc: "O teste da ilha",
-      title: "Horikita recebe o crédito",
-      function: "Mostrar a fachada pública da vitória",
-      summary: "A turma associa a vitória à Horikita. Ayanokoji permanece fora do centro e deixa outra pessoa ocupar o papel visível.",
-      sourceType: "youtube",
-      youtubeId: "oK7dsXiQUH0",
-      url: "https://www.youtube.com/watch?v=oK7dsXiQUH0",
-      sourceLabel: "recorte público · usar como referência",
-      range: "cena isolada",
-      language: "verificar idioma",
-      status: "verify",
-      statusLabel: "validar PT-BR",
-      pace: "3–4 min de mesa",
-      question: "Por que alguém que venceu escolheria não levar o crédito?",
-      hostCue: "Essa pergunta prepara perfeitamente o monólogo final.",
-      exitCue: "Entrar no verdadeiro Ayanokoji."
-    },
-    {
-      id: "t1e12-tools",
-      season: 1,
-      episode: "T1E12",
-      arc: "Quem é Ayanokoji?",
-      title: "Pessoas como ferramentas",
-      function: "Fechar a temporada 1 com a revelação do protagonista",
-      summary: "A máscara do protagonista cai para o público. A conversa muda de 'ele é inteligente' para 'como ele enxerga as pessoas e por que precisa vencer'.",
-      sourceType: "youtube",
-      youtubeId: "hcQbIDDGmQw",
-      url: "https://www.youtube.com/watch?v=hcQbIDDGmQw",
-      sourceLabel: "recorte público · usar como referência",
-      range: "22:12–23:47 no episódio oficial",
-      language: "verificar idioma",
-      status: "verify",
-      statusLabel: "validar PT-BR",
-      pace: "6–9 min de mesa",
-      question: "Depois dessa fala, vocês ainda chamariam esse cara de 'herói'?",
-      hostCue: "Esse é o grande fechamento da T1. Deixar a bancada respirar e discordar.",
-      exitCue: "Abrir T2 dizendo: agora as relações pessoais passam a ser parte central da estratégia."
-    },
-    {
-      id: "t2e1-kei",
-      season: 2,
-      episode: "T2E1",
-      arc: "Relações viram recurso",
-      title: "Karuizawa precisa de ajuda",
-      function: "Abrir a temporada 2 com a Kei no tabuleiro",
-      summary: "A nova prova força relações entre classes e muda o papel de Kei. A temporada começa a transformar intimidade, reputação e vulnerabilidade em variáveis do jogo.",
-      sourceType: "youtube",
-      youtubeId: "yaZ6Gqq_Em4",
-      url: "https://www.youtube.com/watch?v=yaZ6Gqq_Em4",
-      sourceLabel: "Crunchyroll Brasil · clipe oficial",
-      range: "clipe oficial",
-      language: "PT-BR",
-      status: "ready",
-      statusLabel: "clipe pronto",
-      pace: "5–7 min de mesa",
-      question: "Quando uma relação deixa de ser amizade e vira recurso estratégico?",
-      hostCue: "Apresentar Kei sem despejar toda a história dela.",
-      exitCue: "Voltar à Kushida, agora em confronto direto."
-    },
-    {
-      id: "t2e6-kushida-horikita",
-      season: 2,
-      episode: "T2E6",
-      arc: "A máscara fica pública",
-      title: "Kushida x Horikita",
-      function: "Evoluir o conflito plantado na T1",
-      summary: "O lado escondido de Kushida deixa de ser um segredo apenas entre ela e Ayanokoji. O conflito com Horikita fica frontal.",
-      sourceType: "youtube",
-      youtubeId: "yT0NuGinS00",
-      url: "https://www.youtube.com/watch?v=yT0NuGinS00",
-      sourceLabel: "recorte PT-BR",
-      range: "clipe isolado",
-      language: "PT-BR",
-      status: "ready",
-      statusLabel: "clipe pronto",
-      pace: "4–6 min de mesa",
-      question: "A Horikita está lidando com a pessoa real da Kushida ou com mais uma camada?",
-      hostCue: "Lembrar rapidamente o T1E3 para criar continuidade.",
-      exitCue: "Levar para a aposta do Paper Shuffle."
-    },
-    {
-      id: "t2e8-aposta",
-      season: 2,
-      episode: "T2E8",
-      arc: "Paper Shuffle",
-      title: "A aposta",
-      function: "Colocar o conflito num mecanismo formal",
-      summary: "Horikita e Kushida transformam o embate pessoal em uma aposta com consequência real. Ayanokoji entra no risco e exige entender o passado de Kushida.",
-      sourceType: "youtube",
-      youtubeId: "miOAdAwx9hY",
-      url: "https://www.youtube.com/watch?v=miOAdAwx9hY",
-      sourceLabel: "recorte público · referência",
-      range: "11:47–12:10 / 14:33–15:25 no episódio",
-      language: "verificar idioma",
-      status: "verify",
-      statusLabel: "validar PT-BR",
-      pace: "4–6 min de mesa",
-      question: "Quem parece estar assumindo mais risco aqui?",
-      hostCue: "Fazer Will/KV escolherem quem acham que vai ganhar antes de mostrar a virada.",
-      exitCue: "Entrar na execução do plano."
-    },
-    {
-      id: "t2e9-kushida-1",
-      season: 2,
-      episode: "T2E9",
-      arc: "Paper Shuffle",
-      title: "Kushida acha que venceu",
-      function: "Criar falsa sensação de controle",
-      summary: "A cena funciona melhor se a bancada acreditar por alguns segundos que o plano dela deu certo. É a preparação para a armadilha fechar.",
-      sourceType: "youtube",
-      youtubeId: "tmuvPWJ6Hco",
-      url: "https://www.youtube.com/watch?v=tmuvPWJ6Hco",
-      sourceLabel: "recorte público · referência",
-      range: "trecho central",
-      language: "verificar idioma",
-      status: "verify",
-      statusLabel: "validar PT-BR",
-      pace: "2–4 min de mesa",
-      question: "Até aqui, quem vocês acham que controlou o jogo?",
-      hostCue: "Não explicar a contramedida.",
-      exitCue: "Tocar imediatamente a segunda parte."
-    },
-    {
-      id: "t2e9-kushida-2",
-      season: 2,
-      episode: "T2E9",
-      arc: "Paper Shuffle",
-      title: "A armadilha fecha",
-      function: "Mostrar Kushida presa no próprio jogo",
-      summary: "As contramedidas aparecem e a segurança de Kushida desaba. É o payoff da linha que começou quando Ayanokoji descobriu a verdadeira face dela na T1.",
-      sourceType: "youtube",
-      youtubeId: "esaDifOFzf4",
-      url: "https://www.youtube.com/watch?v=esaDifOFzf4",
-      sourceLabel: "recorte público · referência",
-      range: "trecho central",
-      language: "verificar idioma",
-      status: "verify",
-      statusLabel: "validar PT-BR",
-      pace: "5–8 min de mesa",
-      question: "Ela caiu porque é menos inteligente ou porque achou que conhecia todas as peças?",
-      hostCue: "Boa hora para amarrar T1E3 → T2E9.",
-      exitCue: "Mudar de antagonista: Ryuen entra na caça ao cérebro."
-    },
-    {
-      id: "t2e11-koenji-1",
-      season: 2,
-      episode: "T2E11",
-      arc: "Caça ao mastermind",
-      title: "Ryuen testa Koenji · parte 1",
-      function: "Mostrar que Ryuen sabe que existe alguém oculto",
-      summary: "Ryuen começa a testar suspeitos e a pressão muda de 'vencer a Classe D' para descobrir quem realmente interfere nos planos dele.",
-      sourceType: "youtube",
-      youtubeId: "QXI1tmQyBdM",
-      url: "https://www.youtube.com/watch?v=QXI1tmQyBdM",
-      sourceLabel: "recorte público · referência",
-      range: "E11 04:25–09:05 como arco completo",
-      language: "verificar idioma",
-      status: "verify",
-      statusLabel: "validar PT-BR",
-      pace: "3–5 min de mesa",
-      question: "Se vocês fossem o Ryuen, quem seria o suspeito número 1?",
-      hostCue: "Koenji funciona muito bem como falsa pista para quem não viu o anime.",
-      exitCue: "Seguir na mesma abordagem."
-    },
-    {
-      id: "t2e11-koenji-2",
-      season: 2,
-      episode: "T2E11",
-      arc: "Caça ao mastermind",
-      title: "Ryuen testa Koenji · parte 2",
-      function: "Fechar a falsa pista",
-      summary: "A conversa reforça que Ryuen está buscando um operador invisível, mas ainda não consegue provar quem é.",
-      sourceType: "youtube",
-      youtubeId: "fMUwg4_SgVM",
-      url: "https://www.youtube.com/watch?v=fMUwg4_SgVM",
-      sourceLabel: "recorte público · referência",
-      range: "continuação",
-      language: "verificar idioma",
-      status: "verify",
-      statusLabel: "validar PT-BR",
-      pace: "2–4 min de mesa",
-      question: "O Koenji está sendo sincero ou só é impossível de ler?",
-      hostCue: "Não gastar muito tempo aqui. É ponte.",
-      exitCue: "Ryuen muda de método e usa Kei."
-    },
-    {
-      id: "t2e11-kei",
-      season: 2,
-      episode: "T2E11",
-      arc: "Caça ao mastermind",
-      title: "Ryuen usa Kei como isca",
-      function: "Conectar Kei diretamente ao cérebro oculto",
-      summary: "Ryuen percebe a ligação e tenta usar vulnerabilidade para forçar a identidade do mastermind a aparecer.",
-      sourceType: "youtube",
-      youtubeId: "-wkDKQ2VLB4",
-      url: "https://www.youtube.com/watch?v=-wkDKQ2VLB4",
-      sourceLabel: "recorte público · referência",
-      range: "16:49–17:39 no episódio para priorizar diálogo",
-      language: "verificar idioma",
-      status: "verify",
-      statusLabel: "validar PT-BR",
-      pace: "5–7 min de mesa",
-      question: "O Ryuen está procurando informação ou tentando obrigar o mastermind a se revelar?",
-      hostCue: "Na live, priorizar o diálogo e não a violência da sequência.",
-      exitCue: "Agora finalmente mostrar quem aparece."
-    },
-    {
-      id: "t2e12-mastermind",
-      season: 2,
-      episode: "T2E12",
-      arc: "Ayanokoji sai das sombras",
-      title: "O mastermind aparece",
-      function: "Entregar a revelação que Ryuen perseguiu",
-      summary: "Ryuen finalmente entende quem estava por trás das movimentações. Ayanokoji abandona a posição invisível e assume a cena.",
-      sourceType: "external",
-      url: "https://www.crunchyroll.com/watch/G8WUN8PE8",
-      sourceLabel: "Crunchyroll · episódio 12",
-      range: "10:30–12:14 (sugerido)",
-      language: "PT-BR disponível",
-      status: "verify",
-      statusLabel: "conferir faixa",
-      pace: "5–8 min de mesa",
-      question: "O que é mais assustador: ele finalmente aparecer ou aparecer sem parecer preocupado?",
-      hostCue: "Deixar Will/KV reagirem antes de explicar o plano maior.",
-      exitCue: "Fechar com o medo de Ryuen."
-    },
-    {
-      id: "t2e12-medo",
-      season: 2,
-      episode: "T2E12",
-      arc: "Ayanokoji sai das sombras",
-      title: "Ryuen descobre o medo",
-      function: "Fechar a temporada 2 no choque de poder",
-      summary: "O confronto chega ao ponto em que a segurança psicológica de Ryuen é desmontada. É o payoff ideal para encerrar a sequência T1 + T2.",
-      sourceType: "youtube",
-      youtubeId: "pKXMUHlbalc",
-      url: "https://www.youtube.com/watch?v=pKXMUHlbalc",
-      sourceLabel: "Crunchyroll Brasil · clipe oficial",
-      range: "18:45–20:37 no episódio para priorizar diálogo",
-      language: "PT-BR",
-      status: "ready",
-      statusLabel: "clipe pronto",
-      pace: "7–10 min de mesa",
-      question: "No fim dessa temporada, quem mudou mais: Ayanokoji, Ryuen, Kei ou a forma como a gente enxerga todos eles?",
-      hostCue: "É o fechamento grande. Abrir a mesa e deixar a conversa respirar.",
-      exitCue: "Conclusão da live: o sistema escolar virou uma teia de relações."
+      tab: "Parte 6 · Ryuen",
+      title: "RYUEN COMEÇA A CAÇAR O FANTASMA DA CLASSE D",
+      intro: "Depois de perder movimentos importantes sem entender de onde eles vieram, Ryuen chega à conclusão certa: existe alguém operando por trás da Classe D. Falta descobrir quem.",
+      stories: [
+        {
+          eyebrow: "T2 · Episódio 11",
+          title: "Koenji vira suspeito",
+          paragraphs: [
+            "Koenji é inteligente, imprevisível e claramente esconde capacidade. Para Ryuen, ele faz sentido como candidato a mastermind.",
+            "Só que conversar com Koenji é quase um esporte separado. Ele não reage à intimidação como os outros alunos e continua impossível de encaixar."
+          ],
+          media: {
+            provider: "youtube",
+            id: "QXI1tmQyBdM",
+            title: "Ryuen confronta Koenji",
+            tag: "Parte 1",
+            caption: "Primeiro bloco da investigação de Ryuen."
+          }
+        },
+        {
+          eyebrow: "T2 · Episódio 11",
+          title: "A pista muda de Koenji para Karuizawa",
+          paragraphs: [
+            "Sem conseguir fechar a identidade pelo caminho óbvio, Ryuen passa a olhar para conexões. E a relação entre Kei e aquele operador invisível começa a parecer importante.",
+            "A partir daqui, o objetivo já não é apenas descobrir um nome. É <strong>criar uma situação em que esse nome seja obrigado a aparecer.</strong>"
+          ],
+          media: {
+            provider: "youtube",
+            id: "-wkDKQ2VLB4",
+            title: "Ryuen pressiona Karuizawa",
+            tag: "Diálogo prioritário",
+            caption: "Na versão definitiva vamos priorizar o trecho de diálogo e evitar deixar a sequência longa rodando."
+          }
+        },
+        {
+          eyebrow: "T2 · Episódio 12",
+          title: "O mastermind finalmente entra pela porta",
+          paragraphs: [
+            "Depois de duas temporadas evitando o centro, Ayanokoji aparece diretamente diante de Ryuen.",
+            "O contraste é o que torna a cena tão boa: Ryuen passou episódios construindo a imagem de um adversário misterioso. Quando ele finalmente aparece, Ayanokoji se comporta como se aquilo fosse apenas mais um problema para resolver."
+          ],
+          media: {
+            provider: "youtube",
+            id: "pKXMUHlbalc",
+            title: "Ayanokoji e Ryuen",
+            tag: "Crunchyroll Brasil",
+            caption: "Clipe oficial em PT-BR. Na edição final, este bloco será ajustado para começar no diálogo mais útil para a explicação."
+          }
+        },
+        {
+          eyebrow: "T2 · Episódio 12",
+          title: "Ryuen descobre que medo também faz parte do jogo",
+          paragraphs: [
+            "Ryuen construiu a própria força em cima da ideia de que não tem medo. Ayanokoji desmonta exatamente essa certeza.",
+            "É um fechamento perfeito para as duas temporadas porque o anime volta ao mesmo ponto de sempre: <strong>o sistema importa, mas entender as pessoas importa ainda mais.</strong>"
+          ],
+          media: {
+            provider: "youtube",
+            id: "pKXMUHlbalc",
+            title: "Ryuen sente medo",
+            tag: "Fechamento da T2",
+            caption: "Mesmo clipe oficial, apresentado como um bloco próprio para separar revelação do mastermind e consequência psicológica."
+          }
+        }
+      ]
     }
   ]
 };
