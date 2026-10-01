@@ -38,14 +38,51 @@ button{font:inherit}
     repeating-linear-gradient(90deg,transparent 0 96px,rgba(255,255,255,.022) 96px 97px),
     linear-gradient(145deg,#0f1824,#160b12 68%,#08090c);
 }
+.hero-art{
+  position:absolute;
+  inset:0 0 0 auto;
+  width:min(48vw,820px);
+  overflow:hidden;
+  pointer-events:none;
+  z-index:0;
+}
+.hero-art img{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+  object-position:58% 38%;
+  opacity:.72;
+  filter:saturate(.86) contrast(1.08) brightness(.82);
+  transform:scale(1.03);
+  transition:opacity .28s ease,filter .28s ease,object-position .38s ease;
+}
+.hero-art-shade{
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(90deg,#090b10 0%,rgba(9,11,16,.86) 12%,rgba(9,11,16,.30) 52%,rgba(9,11,16,.14) 100%),
+    linear-gradient(180deg,rgba(7,9,13,.08),rgba(7,9,13,.35));
+  box-shadow:inset 0 0 120px rgba(0,0,0,.26);
+}
+.hero[data-tone="warm"] .hero-art img{
+  filter:saturate(.92) contrast(1.10) brightness(.80) sepia(.08);
+}
+.hero[data-tone="school"] .hero-art img{
+  filter:saturate(.82) contrast(1.06) brightness(.78);
+}
+.hero[data-tone="cool"] .hero-art img{
+  filter:saturate(.80) contrast(1.10) brightness(.76) hue-rotate(-3deg);
+}
 .hero:after{
   content:"";
   position:absolute;
-  width:620px;height:620px;
-  right:-120px;top:-220px;
-  border-radius:50%;
-  border:1px solid rgba(255,92,115,.18);
-  box-shadow:0 0 120px rgba(217,47,76,.12),inset 0 0 80px rgba(92,200,255,.08);
+  inset:0;
+  pointer-events:none;
+  background:
+    linear-gradient(90deg,rgba(7,9,13,.96) 0%,rgba(7,9,13,.92) 25%,rgba(7,9,13,.65) 53%,rgba(7,9,13,.08) 78%),
+    radial-gradient(circle at 78% 25%,rgba(255,92,115,.10),transparent 38%);
+  z-index:1;
 }
 .hero-noise{
   position:absolute;inset:0;opacity:.18;pointer-events:none;
@@ -53,7 +90,7 @@ button{font:inherit}
   background-size:36px 36px;
 }
 .hero-inner{
-  position:relative;z-index:2;
+  position:relative;z-index:3;
   width:min(1180px,calc(100% - 48px));
   margin:0 auto;
   padding:58px 0 52px;
@@ -261,6 +298,8 @@ button{font:inherit}
 }
 @media(max-width:760px){
   .hero{min-height:330px}
+  .hero-art{width:68vw;opacity:.42}
+  .hero:after{background:linear-gradient(90deg,rgba(7,9,13,.97) 0%,rgba(7,9,13,.88) 52%,rgba(7,9,13,.35) 100%)}
   .site-shell,.hero-inner{width:min(100% - 28px,1180px)}
   .site-shell{padding-top:24px}
   .part-head{padding-top:28px}
