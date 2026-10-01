@@ -1,7 +1,7 @@
 window.CLASSROOM_RWX = {
   parts: [
     {
-      tab: "Prefácio · Ayanokoji",
+      tab: "Prefácio",
       heroPoster: "https://i.ytimg.com/vi/pkp7OyI_FkI/hqdefault.jpg",
       heroPosition: "50% 50%",
       heroTone: "cool",
@@ -71,7 +71,7 @@ window.CLASSROOM_RWX = {
       ]
     },
     {
-      tab: "Parte 1 · A escola",
+      tab: "1 · Escola",
       heroPoster: "https://i.ytimg.com/vi/kHVCAOIKhB4/hqdefault.jpg",
       heroPosition: "50% 50%",
       heroTone: "school",
@@ -118,7 +118,7 @@ window.CLASSROOM_RWX = {
       ]
     },
     {
-      tab: "Parte 2 · Classe D",
+      tab: "2 · Classe D",
       heroPoster: "https://i.ytimg.com/vi/-I3kM2cZzCw/hqdefault.jpg",
       heroPosition: "50% 48%",
       heroTone: "school",
@@ -173,7 +173,7 @@ window.CLASSROOM_RWX = {
       ]
     },
     {
-      tab: "Parte 3 · Ilha",
+      tab: "3 · Ilha",
       heroPoster: "https://i.ytimg.com/vi/oK7dsXiQUH0/hqdefault.jpg",
       heroPosition: "50% 52%",
       heroTone: "school",
@@ -229,7 +229,7 @@ window.CLASSROOM_RWX = {
       ]
     },
     {
-      tab: "Parte 4 · Relações",
+      tab: "4 · Relações",
       heroPoster: "https://i.ytimg.com/vi/yaZ6Gqq_Em4/hqdefault.jpg",
       heroPosition: "50% 50%",
       heroTone: "warm",
@@ -285,7 +285,7 @@ window.CLASSROOM_RWX = {
       ]
     },
     {
-      tab: "Parte 5 · Paper Shuffle",
+      tab: "5 · Paper Shuffle",
       heroPoster: "https://i.ytimg.com/vi/miOAdAwx9hY/hqdefault.jpg",
       heroPosition: "50% 50%",
       heroTone: "cool",
@@ -326,7 +326,7 @@ window.CLASSROOM_RWX = {
       ]
     },
     {
-      tab: "Parte 6 · Ryuen",
+      tab: "6 · Ryuen",
       heroPoster: "https://i.ytimg.com/vi/pKXMUHlbalc/hqdefault.jpg",
       heroPosition: "50% 50%",
       heroTone: "warm",
