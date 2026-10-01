@@ -1,6 +1,72 @@
 window.CLASSROOM_RWX = {
   parts: [
     {
+      tab: "Prefácio · Ayanokoji",
+      kicker: "Prefácio",
+      title: "ANTES DA CLASSE D, EXISTE AYANOKOJI",
+      intro: "Classroom of the Elite pode falar de pontos, provas, classes, alianças e guerra psicológica. Mas tudo isso gira em torno de Kiyotaka Ayanokoji. Antes de entender a escola, vale entender por que ele chega ali tentando viver como um aluno comum, mesmo sendo tudo menos comum.",
+      stories: [
+        {
+          eyebrow: "T1 · Episódio 6",
+          title: "A primeira rachadura na máscara",
+          paragraphs: [
+            "Durante boa parte da primeira temporada, Ayanokoji se apresenta como um aluno apagado, sem grande ambição e interessado apenas em passar os dias em paz. Só que a própria Horikita começa a perceber que isso não bate com o que ele realmente faz.",
+            "Quando ela o pressiona para saber quem ele é de verdade, o anime entrega um flash curto de um treinamento rígido e controlado. A resposta dele encerra a conversa de forma seca: <strong>ele vai ajudá-la a chegar à Classe A, mas não quer ninguém entrando na vida dele.</strong>",
+            "É a primeira pista clara de que existe um passado por trás daquela postura neutra, e de que a capacidade dele não nasceu dentro daquela escola."
+          ],
+          media: {
+            provider: "pending",
+            title: "Horikita pergunta quem Ayanokoji realmente é",
+            tag: "T1E6 · 20:51–22:22",
+            caption: "Trecho planejado completo: a conversa começa quando Horikita o confronta sobre a manipulação do caso Sudo, passa pela pergunta sobre quem ele é, mostra o flash do treinamento e termina somente depois do aviso para não investigarem a vida dele. Arquivo local: áudio japonês + legenda PT-BR."
+          }
+        },
+        {
+          eyebrow: "T2 · Episódio 10",
+          title: "A White Room finalmente ganha nome",
+          paragraphs: [
+            "Na segunda temporada, o passado deixa de ser só uma pista. O pai de Ayanokoji aparece na escola e a conversa revela que ele não está ali por acaso: Kiyotaka saiu de um ambiente educacional criado pelo próprio pai e escolheu essa escola justamente para conhecer o mundo comum que lhe foi negado.",
+            "É nessa conversa que a <strong>White Room</strong> é citada diretamente. O pai deixa claro que o projeto voltou a funcionar e trata Kiyotaka como seu melhor resultado, não como um filho que simplesmente decidiu estudar longe de casa.",
+            "A importância dessa cena é simples: aquela escola representa competição para quase todos os alunos. Para Ayanokoji, ela também representa liberdade."
+          ],
+          media: {
+            provider: "pending",
+            title: "Ayanokoji encontra o pai e a White Room é revelada",
+            tag: "T2E10 · ~11:20–14:10",
+            caption: "Trecho planejado: manter a conversa com o pai desde a entrada de Kiyotaka na sala até a chegada de Sakayanagi, incluindo Matsuo, a razão de Ayanokoji ter escolhido a escola, a ordem de retirada e a menção direta à White Room. O tempo será fechado no arquivo local sem mutilar nenhuma fala."
+          }
+        },
+        {
+          eyebrow: "T2 · Episódio 10",
+          title: "A escola confirma que conhece o passado dele",
+          paragraphs: [
+            "A conversa seguinte é tão importante quanto a anterior. O presidente Sakayanagi deixa claro que conhece o pai de Kiyotaka e sabe da existência da White Room.",
+            "Isso também explica por que o pai não consegue simplesmente arrancá-lo dali: dentro daquela instituição, existem regras que protegem a autonomia do aluno. Pela primeira vez, Ayanokoji está em um lugar onde a autoridade do pai encontra um limite."
+          ],
+          media: {
+            provider: "pending",
+            title: "Sakayanagi confirma a White Room",
+            tag: "T2E10 · ~14:10–17:04",
+            caption: "Trecho planejado completo da entrada do presidente Sakayanagi até a confirmação de que ele conhece Ayanokoji há muito tempo e sabe da White Room. O corte final será ajustado pelo arquivo local."
+          }
+        },
+        {
+          eyebrow: "T2 · Episódio 13",
+          title: "Arisu sabe exatamente quem ele é",
+          paragraphs: [
+            "No fim da segunda temporada, Arisu Sakayanagi deixa de ser apenas mais uma aluna da Classe A olhando Ayanokoji de longe.",
+            "Ela o reconhece diretamente como o grande produto da White Room criada pelo pai dele e transforma essa origem em uma rivalidade pessoal. A partir daqui, fica claro que o passado de Ayanokoji não ficou enterrado fora da escola. Ele já entrou junto com ele."
+          ],
+          media: {
+            provider: "pending",
+            title: "Arisu confronta Ayanokoji sobre a White Room",
+            tag: "T2E13 · 23:03–23:35",
+            caption: "Trecho planejado completo do encontro final entre Arisu e Ayanokoji, incluindo a identificação dele como produto da White Room e o desafio que fecha a segunda temporada."
+          }
+        }
+      ]
+    },
+    {
       tab: "Parte 1 · A escola",
       title: "A ESCOLA PERFEITA DEMAIS",
       intro: "Antes de falar do Ayanokoji, da Horikita ou de qualquer guerra psicológica, a gente precisa entender o lugar onde todo mundo foi colocado. Porque a escola é praticamente um personagem.",
@@ -88,8 +154,8 @@ window.CLASSROOM_RWX = {
           media: {
             provider: "pending",
             title: "Sudo x Classe C",
-            tag: "Recorte PT-BR pendente",
-            caption: "Vamos substituir este slot pelo recorte exato da solução do caso, já pronto para tocar sem busca de timestamp."
+            tag: "Recorte local pendente",
+            caption: "Vamos substituir este slot pelo recorte local exato da solução do caso, com áudio japonês e legenda PT-BR, já pronto para tocar sem busca de timestamp."
           }
         }
       ]
