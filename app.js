@@ -48,6 +48,15 @@
           allow="autoplay; fullscreen; picture-in-picture"
           allowfullscreen></iframe>
       </div>`;
+    } else if(media.provider === "gdrive"){
+      body = `<div class="video-frame">
+        <iframe
+          src="https://drive.google.com/file/d/${esc(media.id)}/preview"
+          title="${esc(media.title)}"
+          loading="lazy"
+          allow="autoplay; fullscreen"
+          allowfullscreen></iframe>
+      </div>`;
     } else {
       body = `<div class="pending-media">
         <div>
