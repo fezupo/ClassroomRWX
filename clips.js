@@ -87,14 +87,11 @@ window.CLASSROOM_RWX = {
             "No começo, a sensação é simples: <strong>essa escola confia nos alunos e recompensa quem conseguiu entrar ali.</strong> A Classe D compra essa ideia rapidinho."
           ],
           media: {
-            provider: "youtube",
-            id: "kHVCAOIKhB4",
-            officialUrl: "https://www.crunchyroll.com/pt-br/watch/G6P8ZP8M6/what-is-evil-whatever-springs-from-weakness",
-            start: 452,
-            end: 570,
+            provider: "gdrive",
+            id: "1fbZioUbHnVwv8sf8lKFpHd0swPOFMN3W",
             title: "Como a escola funciona e os 100 mil pontos",
-            tag: "Trecho completo · 07:32–09:30",
-            caption: "Trecho completo da explicação inicial, com margem depois da fala dos 100 mil pontos: Chabashira apresenta as regras da escola, as restrições do campus, as instalações, o sistema de pontos, o valor recebido e a lógica de mérito, sem cortar no meio da explicação."
+            tag: "T1E01 · 07:32–10:38",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR: Chabashira apresenta as regras da escola e o sistema de pontos, Ayanokoji calcula o tamanho daquela quantia e a cena continua até o encerramento natural da conversa com Horikita na loja."
           }
         },
         {
