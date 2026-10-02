@@ -19,10 +19,11 @@ window.CLASSROOM_RWX = {
             "É a primeira pista clara de que existe um passado por trás daquela postura neutra, e de que a capacidade dele não nasceu dentro daquela escola."
           ],
           media: {
-            provider: "pending",
+            provider: "gdrive",
+            id: "14-lg9YOUjUdSk-PzKtzdlsFQMYttp0E0",
             title: "Horikita pergunta quem Ayanokoji realmente é",
-            tag: "T1E6 · 20:51–22:22",
-            caption: "Trecho planejado completo: a conversa começa quando Horikita o confronta sobre a manipulação do caso Sudo, passa pela pergunta sobre quem ele é, mostra o flash do treinamento e termina somente depois do aviso para não investigarem a vida dele. Arquivo local: áudio japonês + legenda PT-BR."
+            tag: "T1E06 · 20:52–22:26",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         },
         {
@@ -34,10 +35,11 @@ window.CLASSROOM_RWX = {
             "A importância dessa cena é simples: aquela escola representa competição para quase todos os alunos. Para Ayanokoji, ela também representa liberdade."
           ],
           media: {
-            provider: "pending",
+            provider: "gdrive",
+            id: "1BXkgayu1xXIE7YfqLTMbLXtAQn8eLA8j",
             title: "Ayanokoji encontra o pai e a White Room é revelada",
-            tag: "T2E10 · ~11:20–14:10",
-            caption: "Trecho planejado: manter a conversa com o pai desde a entrada de Kiyotaka na sala até a chegada de Sakayanagi, incluindo Matsuo, a razão de Ayanokoji ter escolhido a escola, a ordem de retirada e a menção direta à White Room. O tempo será fechado no arquivo local sem mutilar nenhuma fala."
+            tag: "T2E10 · 10:42–13:53",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         },
         {
@@ -48,10 +50,11 @@ window.CLASSROOM_RWX = {
             "Isso também explica por que o pai não consegue simplesmente arrancá-lo dali: dentro daquela instituição, existem regras que protegem a autonomia do aluno. Pela primeira vez, Ayanokoji está em um lugar onde a autoridade do pai encontra um limite."
           ],
           media: {
-            provider: "pending",
+            provider: "gdrive",
+            id: "1f7WSJT9FtHrBpwHxGrZ6T7uK8S6ZIQLs",
             title: "Sakayanagi confirma a White Room",
-            tag: "T2E10 · ~14:10–17:04",
-            caption: "Trecho planejado completo da entrada do presidente Sakayanagi até a confirmação de que ele conhece Ayanokoji há muito tempo e sabe da White Room. O corte final será ajustado pelo arquivo local."
+            tag: "T2E10 · 13:56–17:10",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         },
         {
@@ -62,10 +65,11 @@ window.CLASSROOM_RWX = {
             "Ela o reconhece diretamente como o grande produto da White Room criada pelo pai dele e transforma essa origem em uma rivalidade pessoal. A partir daqui, fica claro que o passado de Ayanokoji não ficou enterrado fora da escola. Ele já entrou junto com ele."
           ],
           media: {
-            provider: "pending",
+            provider: "gdrive",
+            id: "1O81vRjWjar17l_VYcybDE2YPhniBIPD9",
             title: "Arisu confronta Ayanokoji sobre a White Room",
-            tag: "T2E13 · 23:03–23:35",
-            caption: "Trecho planejado completo do encontro final entre Arisu e Ayanokoji, incluindo a identificação dele como produto da White Room e o desafio que fecha a segunda temporada."
+            tag: "T2E13 · 23:03–23:40",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         }
       ]
@@ -102,14 +106,11 @@ window.CLASSROOM_RWX = {
             "O detalhe mais importante é esse: <strong>não existe liberdade sem consequência dentro daquele sistema.</strong> A turma gastou como se estivesse recebendo mesada e descobre que, na prática, estava sendo observada."
           ],
           media: {
-            provider: "youtube",
-            id: "kHVCAOIKhB4",
-            officialUrl: "https://www.crunchyroll.com/pt-br/watch/G6P8ZP8M6/what-is-evil-whatever-springs-from-weakness",
-            start: 1186,
-            end: 1365,
+            provider: "gdrive",
+            id: "1ZK2CSdemSnaO7n47SgnrXeew9PIYHY3p",
             title: "A Classe D descobre a regra de verdade",
-            tag: "Trecho completo · 19:46–22:45",
-            caption: "O trecho começa ainda na consequência do primeiro mês, passa pela chegada de 1º de maio e mantém toda a explicação de Chabashira até depois da conclusão sobre mérito e o valor atribuído à Classe D, com margem para não cortar nenhuma fala."
+            tag: "T1E01 · 19:30–22:26",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         }
       ]
@@ -131,11 +132,11 @@ window.CLASSROOM_RWX = {
             "Ayanokoji parece exatamente o contrário: apagado, sem ambição aparente e sempre evitando o centro. Só que aos poucos ele começa a interferir nos problemas dela e da turma sem chamar atenção para si."
           ],
           media: {
-            provider: "youtube",
-            id: "-I3kM2cZzCw",
+            provider: "gdrive",
+            id: "1B51ayVoGMydHyhMwqggKt3NaaVPHbCk8",
             title: "Ayanokoji defende Horikita",
-            tag: "Crunchyroll Brasil",
-            caption: "Um dos primeiros momentos em que a relação entre os dois deixa de ser apenas convivência de sala."
+            tag: "T1E02 · 17:25–19:50",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         },
         {
@@ -146,11 +147,11 @@ window.CLASSROOM_RWX = {
             "O problema é que Ayanokoji encontra justamente o lado que ela tenta esconder. A partir daqui, o anime deixa claro que <strong>imagem social e identidade real podem ser coisas completamente diferentes.</strong>"
           ],
           media: {
-            provider: "dailymotion",
-            id: "x8dycyw",
+            provider: "gdrive",
+            id: "1HrH5qOu2P-ntT5t0mZGYmLfgP-Gg3GOS",
             title: "A verdadeira face da Kushida",
-            tag: "Fonte temporária",
-            caption: "Referência pública da cena. A versão PT-BR definitiva ainda será substituída antes da live."
+            tag: "T1E03 · 20:13–22:24",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         },
         {
@@ -161,10 +162,11 @@ window.CLASSROOM_RWX = {
             "É um passo importante porque eles começam a perceber que vencer naquela escola não depende somente de estar certo. Depende de <strong>entender como o sistema toma decisões e como obrigar o adversário a recalcular o próprio risco.</strong>"
           ],
           media: {
-            provider: "pending",
+            provider: "gdrive",
+            id: "1g04b_vio82pFJPBBju_6dQlHnqjgKFuu",
             title: "Sudo x Classe C",
-            tag: "Recorte local pendente",
-            caption: "Vamos substituir este slot pelo recorte local exato da solução do caso, com áudio japonês e legenda PT-BR, já pronto para tocar sem busca de timestamp."
+            tag: "T1E06 · 05:38–10:41",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         }
       ]
@@ -186,11 +188,11 @@ window.CLASSROOM_RWX = {
             "O mais importante não é apenas a vitória. É perceber que <strong>alguém estava organizando as peças sem precisar aparecer como líder.</strong>"
           ],
           media: {
-            provider: "youtube",
-            id: "oK7dsXiQUH0",
+            provider: "gdrive",
+            id: "1Q_WRAlGbSvCtI4V3d8oqrdnc0guBXZFk",
             title: "O resultado do teste da ilha",
-            tag: "Cena isolada",
-            caption: "Payoff do arco da ilha. A versão PT-BR deste mesmo momento ainda será validada."
+            tag: "T1E12 · 10:12–12:06",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         },
         {
@@ -201,11 +203,11 @@ window.CLASSROOM_RWX = {
             "Essa é uma característica que vai importar muito depois: ele não precisa que os outros saibam que foi ele. Muitas vezes, <strong>ser invisível é exatamente a posição que ele prefere.</strong>"
           ],
           media: {
-            provider: "youtube",
-            id: "oK7dsXiQUH0",
+            provider: "gdrive",
+            id: "1wkuRlsWhSWeY1Ohp81Wi-H9j3ST5frxN",
             title: "A fachada pública da vitória",
-            tag: "Mesmo arco",
-            caption: "Mantido em um bloco próprio porque, na live, esta ideia será explicada separadamente da mecânica da vitória."
+            tag: "T1E12 · 18:42–19:26",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         },
         {
@@ -216,11 +218,11 @@ window.CLASSROOM_RWX = {
             "Quando Horikita começa a enxergá-lo como aliado, o público recebe a informação que muda todo o resto: <strong>ele está disposto a tratar pessoas como ferramentas se isso for necessário para vencer.</strong>"
           ],
           media: {
-            provider: "youtube",
-            id: "hcQbIDDGmQw",
+            provider: "gdrive",
+            id: "1D1-WNutYAWuib3rzPVFcwq-HRZJrEaZF",
             title: "O monólogo final de Ayanokoji",
-            tag: "Fechamento da T1",
-            caption: "Cena que fecha a primeira temporada e muda a interpretação do protagonista."
+            tag: "T1E12 · 22:07–23:50",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         }
       ]
@@ -242,11 +244,11 @@ window.CLASSROOM_RWX = {
             "É quando a temporada começa a transformar relações pessoais em parte explícita da estratégia."
           ],
           media: {
-            provider: "youtube",
-            id: "yaZ6Gqq_Em4",
+            provider: "gdrive",
+            id: "1polbP3Lc_A68D0D-jLMvqeW2bavuH-Od",
             title: "Karuizawa precisa de ajuda",
-            tag: "Crunchyroll Brasil",
-            caption: "Cena oficial em PT-BR para introduzir a mudança de foco da segunda temporada."
+            tag: "T2E01 · 18:32–20:18",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         },
         {
@@ -257,11 +259,11 @@ window.CLASSROOM_RWX = {
             "O conflito deixa de ser apenas antipatia. A Kushida começa a tratar a existência da Horikita como ameaça à imagem que construiu."
           ],
           media: {
-            provider: "youtube",
-            id: "yT0NuGinS00",
+            provider: "gdrive",
+            id: "1CvdPbYYeW2jBhr2hYeiKkbVFIc8NnJUo",
             title: "Kushida mostra sua verdadeira face para Horikita",
-            tag: "PT-BR",
-            caption: "A ponte direta entre o segredo plantado na T1 e o conflito aberto da T2."
+            tag: "T2E06 · 17:34–19:57",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         },
         {
@@ -272,11 +274,11 @@ window.CLASSROOM_RWX = {
             "O interessante é que a Kushida acredita estar criando uma situação em que finalmente tem controle. E é justamente aí que o jogo começa a ficar perigoso para ela."
           ],
           media: {
-            provider: "youtube",
-            id: "miOAdAwx9hY",
+            provider: "gdrive",
+            id: "1bs6VEKcn9SyLDKiRfCE3yxMvXb0HR77R",
             title: "A aposta do Paper Shuffle",
-            tag: "Fonte de referência",
-            caption: "Este recorte serve como referência até fecharmos a versão PT-BR definitiva."
+            tag: "T2E08 · 11:05–16:10",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         }
       ]
@@ -298,11 +300,11 @@ window.CLASSROOM_RWX = {
             "Por alguns minutos, parece que finalmente chegou o momento em que Horikita e Ayanokoji foram colocados contra a parede."
           ],
           media: {
-            provider: "youtube",
-            id: "tmuvPWJ6Hco",
+            provider: "gdrive",
+            id: "1cV918z4u2tmzWb7o3zR6zHRu9e1OTSSK",
             title: "Kushida acha que venceu",
-            tag: "Parte 1",
-            caption: "Primeira metade do payoff. Mantida separada para não entregar a virada antes da explicação."
+            tag: "T2E09 · 00:20–01:08",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         },
         {
@@ -313,11 +315,11 @@ window.CLASSROOM_RWX = {
             "Quando as contramedidas aparecem, fica claro que o jogo já tinha sido antecipado. A mesma personagem que tentou criar uma armadilha percebe que <strong>também estava sendo conduzida.</strong>"
           ],
           media: {
-            provider: "youtube",
-            id: "esaDifOFzf4",
+            provider: "gdrive",
+            id: "1qhSwMmNpJZaJQySUDHy5L40CUuYq8fqf",
             title: "A armadilha fecha",
-            tag: "Parte 2",
-            caption: "A continuação entra somente depois da explicação, preservando a progressão durante a live."
+            tag: "T2E09 · 17:02–19:50",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         }
       ]
@@ -339,11 +341,11 @@ window.CLASSROOM_RWX = {
             "Só que conversar com Koenji é quase um esporte separado. Ele não reage à intimidação como os outros alunos e continua impossível de encaixar."
           ],
           media: {
-            provider: "youtube",
-            id: "QXI1tmQyBdM",
+            provider: "gdrive",
+            id: "1zL-yUxRVEpCdPd6ClHq79uchYXP6YGK5",
             title: "Ryuen confronta Koenji",
-            tag: "Parte 1",
-            caption: "Primeiro bloco da investigação de Ryuen."
+            tag: "T2E11 · 04:25–09:43",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         },
         {
@@ -354,11 +356,11 @@ window.CLASSROOM_RWX = {
             "A partir daqui, o objetivo já não é apenas descobrir um nome. É <strong>criar uma situação em que esse nome seja obrigado a aparecer.</strong>"
           ],
           media: {
-            provider: "youtube",
-            id: "-wkDKQ2VLB4",
+            provider: "gdrive",
+            id: "12RqHJXwXFbVpVYtCEvqapCP3m7U9kff9",
             title: "Ryuen pressiona Karuizawa",
-            tag: "Diálogo prioritário",
-            caption: "Na versão definitiva vamos priorizar o trecho de diálogo e evitar deixar a sequência longa rodando."
+            tag: "T2E11 · 15:24–18:49",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         },
         {
@@ -369,11 +371,11 @@ window.CLASSROOM_RWX = {
             "O contraste é o que torna a cena tão boa: Ryuen passou episódios construindo a imagem de um adversário misterioso. Quando ele finalmente aparece, Ayanokoji se comporta como se aquilo fosse apenas mais um problema para resolver."
           ],
           media: {
-            provider: "youtube",
-            id: "pKXMUHlbalc",
+            provider: "gdrive",
+            id: "1TTZszBnZNYPpj4nP2F-sQnkAIn0DlotU",
             title: "Ayanokoji e Ryuen",
-            tag: "Crunchyroll Brasil",
-            caption: "Clipe oficial em PT-BR. Na edição final, este bloco será ajustado para começar no diálogo mais útil para a explicação."
+            tag: "T2E12 · 09:29–12:17",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         },
         {
@@ -384,11 +386,11 @@ window.CLASSROOM_RWX = {
             "É um fechamento perfeito para as duas temporadas porque o anime volta ao mesmo ponto de sempre: <strong>o sistema importa, mas entender as pessoas importa ainda mais.</strong>"
           ],
           media: {
-            provider: "youtube",
-            id: "pKXMUHlbalc",
+            provider: "gdrive",
+            id: "1YYGq1IdTAaRBo-2ISAqrf897dU5i4o1e",
             title: "Ryuen sente medo",
-            tag: "Fechamento da T2",
-            caption: "Mesmo clipe oficial, apresentado como um bloco próprio para separar revelação do mastermind e consequência psicológica."
+            tag: "T2E12 · 15:55–20:41",
+            caption: "Trecho definitivo em áudio japonês com legenda PT-BR."
           }
         }
       ]
